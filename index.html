@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Byte by Byte | An IT Student's Blog</title>
+<meta name="description" content="Byte by Byte is a blog by IT student Eldar Danilov about programming, cybersecurity and student life in tech.">
+<meta name="keywords" content="IT student blog, programming, cybersecurity, web development">
+<meta name="author" content="Eldar Danilov">
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--tx:#1d2330;--mu:#5b6475;--ac:#2563eb;--bd:#dde2ea;--code:#eef1f6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1b2030;--tx:#e7eaf1;--mu:#9aa3b5;--ac:#6ea0ff;--bd:#2c3347;--code:#10131a}}
+:root[data-theme="dark"]{--bg:#12151c;--card:#1b2030;--tx:#e7eaf1;--mu:#9aa3b5;--ac:#6ea0ff;--bd:#2c3347;--code:#10131a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.7 Georgia,"Times New Roman",serif}
+header.site{background:var(--card);border-bottom:1px solid var(--bd)}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+.brand{padding:18px 0 6px;font:700 24px system-ui,Arial,sans-serif}
+.brand small{display:block;font-weight:400;font-size:14px;color:var(--mu)}
+nav ul{list-style:none;margin:0;padding:8px 0 12px;display:flex;flex-wrap:wrap;gap:6px}
+nav a{display:block;padding:6px 12px;border-radius:20px;font:600 14px system-ui,Arial,sans-serif;color:var(--tx);text-decoration:none;border:1px solid var(--bd)}
+nav a[aria-current="page"]{background:var(--ac);color:#fff;border-color:var(--ac)}
+main{padding:24px 0 40px}
+section.page{display:none}section.page.on{display:block}
+h1{font:800 32px/1.25 system-ui,Arial,sans-serif;margin:.2em 0 .3em}
+h2{font:700 23px/1.3 system-ui,Arial,sans-serif;margin:1.6em 0 .4em}
+h3{font:700 18px system-ui,Arial,sans-serif;margin:1.2em 0 .3em}
+a{color:var(--ac)}
+.meta{color:var(--mu);font:14px system-ui,Arial,sans-serif}
+.lead{font-style:italic;color:var(--mu);border-left:4px solid var(--ac);padding-left:12px;margin:14px 0}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin:14px 0}
+.card h2{margin:0 0 4px;font-size:20px}
+pre{background:var(--code);border:1px solid var(--bd);border-radius:8px;padding:12px;overflow-x:auto;font-size:14px;line-height:1.5}
+code{font-family:ui-monospace,Consolas,monospace}
+figure{margin:20px 0;overflow-x:auto}figure svg{max-width:100%;height:auto;background:var(--card);border:1px solid var(--bd);border-radius:10px}
+figcaption{font:italic 14px system-ui,Arial,sans-serif;color:var(--mu);text-align:center;margin-top:6px}
+footer{border-top:1px solid var(--bd);padding:18px 0;color:var(--mu);font:14px system-ui,Arial,sans-serif}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<div class="brand">Byte by Byte<small>Programming, cybersecurity and life as an IT student</small></div>
+<nav aria-label="Main navigation"><ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#post1">Beginner Languages</a></li>
+<li><a href="#post2">Cybersecurity</a></li>
+<li><a href="#post3">First Web Project</a></li>
+<li><a href="#about">About Me</a></li>
+</ul></nav></div></header>
+
+<main class="wrap">
+
+<section class="page" id="home" data-title="Byte by Byte | An IT Student's Blog" data-desc="Byte by Byte is a blog by IT student Eldar Danilov about programming, cybersecurity and student life in tech.">
+<h1>Welcome to Byte by Byte</h1>
+<p class="lead">A blog about learning to code, staying safe online and building real projects, written by a third-year IT student.</p>
+<h2>Latest posts</h2>
+<article class="card"><h2><a href="#post1">Top Programming Languages for Beginners</a></h2><p class="meta">Programming · 6 min read</p><p>Python, JavaScript, Java or C? How to pick your first language.</p></article>
+<article class="card"><h2><a href="#post2">Cybersecurity Tips for Students</a></h2><p class="meta">Security · 5 min read</p><p>Five habits that protect your accounts, devices and coursework.</p></article>
+<article class="card"><h2><a href="#post3">My First Web Development Project</a></h2><p class="meta">Web development · 5 min read</p><p>From a paper sketch to a live site on GitHub Pages.</p></article>
+</section>
+
+<section class="page" id="post1" data-title="Top Programming Languages for Beginners | Byte by Byte" data-desc="Not sure where to start coding? Compare Python, JavaScript, Java and C and learn how to choose the best first programming language.">
+<article>
+<h1>Top Programming Languages for Beginners</h1>
+<p class="meta">By Eldar Danilov · October 2026 · Programming</p>
+<p class="lead">Meta description: Not sure where to start coding? Compare Python, JavaScript, Java and C and learn how to choose the best first programming language.</p>
+<p>Choosing your first programming language feels like ordering from a menu with fifty dishes: everything looks interesting, and nobody agrees on the best choice. As a third-year Computer Science and Software Engineering student, I have tried several languages over the years. In this post, I share the four I would recommend to a complete beginner and explain how to pick the one that fits your goals.</p>
+<figure><svg viewBox="0 0 600 190" role="img" aria-label="Chart showing which language suits which goal"><g font-family="system-ui,Arial" font-size="14" fill="currentColor"><text x="20" y="35">Python</text><rect x="110" y="20" width="400" height="20" rx="4" fill="#2563eb"/><text x="520" y="35" font-size="12">AI, data</text><text x="20" y="75">JavaScript</text><rect x="110" y="60" width="360" height="20" rx="4" fill="#16a34a"/><text x="480" y="75" font-size="12">Web</text><text x="20" y="115">Java</text><rect x="110" y="100" width="300" height="20" rx="4" fill="#d97706"/><text x="420" y="115" font-size="12">Android</text><text x="20" y="155">C</text><rect x="110" y="140" width="240" height="20" rx="4" fill="#9333ea"/><text x="360" y="155" font-size="12">Systems</text></g></svg><figcaption>Figure 1. Where each beginner language is used most often (illustrative).</figcaption></figure>
+<h2>What Makes a Language Beginner-Friendly?</h2>
+<p>Before comparing languages, it helps to know what we are looking for. In my experience, three things matter most:</p>
+<ul><li><strong>Readable syntax:</strong> code that looks close to plain English, so you spend time on logic, not punctuation.</li><li><strong>A large community:</strong> more tutorials, answered questions and open-source examples.</li><li><strong>Quick, visible results:</strong> seeing your program work within minutes keeps motivation high.</li></ul>
+<p>No language wins on all three, which is why the right choice depends on what you want to build.</p>
+<h2>1. Python: The Friendly All-Rounder</h2>
+<p>Python is the most common recommendation, and for good reason. Its syntax is clean, and you do not need semicolons or curly braces to write a working program. Here is a complete example:</p>
+<pre><code>name = input("Your name: ")
+print(f"Hello, {name}!")</code></pre>
+<p>Python is widely used in artificial intelligence, data analysis and automation, so the skills you build stay useful for years. You can download it for free from the <a href="https://www.python.org" target="_blank" rel="noopener">official Python website</a>.</p>
+<h3>Best for</h3><p>AI, data, scripting and first-semester courses.</p>
+<h3>Watch out for</h3><p>Slower execution speed and a relaxed approach to types that can hide bugs.</p>
+<h2>2. JavaScript: The Language of the Web</h2>
+<p>If you want to see results in a browser immediately, JavaScript is hard to beat. Every modern browser runs it, so you need nothing except a text editor. Change a heading, react to a button click, build a small game: feedback is instant. The <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a> offer excellent free tutorials. JavaScript also powers server-side apps through Node.js, so one language can cover both the front end and the back end.</p>
+<h3>Watch out for</h3><p>Quirks such as automatic type conversion, which can surprise beginners.</p>
+<h2>3. Java: Structure and Discipline</h2>
+<p>Java is more verbose, but that is also its teaching value. It forces you to think about classes, types and program structure, which are the foundations of object-oriented programming. Java is used in Android development and large enterprise systems, and many universities use it to teach software design. The learning curve is steeper than Python, yet students who get through it often find other languages easier afterwards.</p>
+<h2>4. C: Understanding the Machine</h2>
+<p>C is not the gentlest start, but it shows what happens beneath the surface: memory, pointers and how programs really run. I would not suggest it as a very first language, but it is a great second step for anyone curious about how computers work.</p>
+<h2>How to Choose Your First Language</h2>
+<ol><li>Interested in AI or data? Start with Python.</li><li>Want to build websites? Start with JavaScript.</li><li>Aiming for Android or enterprise jobs? Choose Java.</li><li>Curious about hardware and systems? Learn C after a first language.</li></ol>
+<p>Whichever you pick, stick with it for at least three months. Switching languages every week is the most common beginner mistake. When you are ready to practice, read about <a href="#post3">my first web development project</a>.</p>
+<h2>Conclusion</h2>
+<p>There is no perfect first language, only the one that keeps you building. Python is the safest default, JavaScript gives the fastest visual reward, and Java and C build deeper foundations. Pick one, write a small project this week, and let curiosity guide the rest. Which language did you start with? I would love to hear your story.</p>
+</article></section>
+
+<section class="page" id="post2" data-title="Cybersecurity Tips for Students | Byte by Byte" data-desc="Five simple cybersecurity tips for students: password managers, two-factor authentication, phishing, public Wi-Fi safety and backups.">
+<article>
+<h1>Cybersecurity Tips for Students</h1>
+<p class="meta">By Eldar Danilov · October 2026 · Security</p>
+<p class="lead">Meta description: Five simple cybersecurity tips for students: password managers, two-factor authentication, phishing, public Wi-Fi safety and backups.</p>
+<p>Imagine losing access to your university account a week before a deadline. Your coursework, email and cloud files all disappear behind a password you no longer control. Students are attractive targets because we use public Wi-Fi, share accounts and store important work online. In this post, I share five practical cybersecurity tips that take less than an hour to set up.</p>
+<figure><svg viewBox="0 0 600 200" role="img" aria-label="Shield with a lock surrounded by security layers"><path d="M300 20 L400 55 V110 C400 150 350 175 300 190 C250 175 200 150 200 110 V55 Z" fill="#2563eb"/><rect x="270" y="95" width="60" height="45" rx="6" fill="#fff"/><path d="M280 95 V80 a20 20 0 0 1 40 0 V95" fill="none" stroke="#fff" stroke-width="8"/><circle cx="300" cy="117" r="6" fill="#2563eb"/><g font-family="system-ui,Arial" font-size="14" fill="currentColor"><text x="30" y="70">Strong passwords</text><text x="30" y="110">Two-factor login</text><text x="30" y="150">Backups</text><text x="430" y="70">Updates</text><text x="430" y="110">Safe Wi-Fi</text><text x="430" y="150">Phishing alert</text></g></svg><figcaption>Figure 2. Layered protection works better than any single tool.</figcaption></figure>
+<h2>Why Students Are Targets</h2>
+<p>Attackers do not need to be sophisticated to succeed against us. Students often reuse passwords, install unofficial software and connect to open networks in cafés and libraries. Criminals also know that we are busy and tend to click quickly before a deadline. Our accounts give access to email, cloud storage and sometimes research data, so a single weak password can open all of them.</p>
+<h2>Tip 1: Use a Password Manager</h2>
+<p>Reusing one password across many sites means one data breach exposes everything. A password manager generates and stores a unique, long password for each account, so you only remember one strong master passphrase. Aim for at least 12 characters, and prefer a phrase of random words over clever substitutions like "P@ssw0rd".</p>
+<h2>Tip 2: Turn On Two-Factor Authentication</h2>
+<p>Two-factor authentication (2FA) adds a second step after your password, usually a code from an app on your phone. Even if someone steals your password, they cannot log in without that code. Enable it first on your email, university portal and social networks. You can check whether your email has appeared in a known breach on <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>.</p>
+<h2>Tip 3: Learn to Spot Phishing</h2>
+<p>Phishing messages pretend to come from a bank, a professor or the IT department. Before you click, check these signs:</p>
+<ul><li>A sense of urgency, such as "act within 24 hours"</li><li>A sender address that looks similar to, but not identical to, the real one</li><li>Link text that differs from the real destination (hover to check)</li><li>Unexpected attachments</li></ul>
+<p>When in doubt, do not click. Open the official website yourself or ask the IT office.</p>
+<h2>Tip 4: Be Careful on Public Wi-Fi</h2>
+<p>Open networks make it easier for others to observe your traffic. Prefer websites that use HTTPS, avoid entering sensitive data on unknown networks, and consider a trusted VPN when you must work in public. Turning off automatic Wi-Fi connection also stops your device from joining fake hotspots.</p>
+<h2>Tip 5: Keep Everything Updated and Backed Up</h2>
+<p>Updates fix known security holes, so install them for your operating system, browser and apps. Follow the 3-2-1 backup rule: keep three copies of your data, on two different types of storage, with one copy off-site or in the cloud. A thesis you can restore is worth far more than a thesis you can only worry about.</p>
+<h2>A Simple Weekly Checklist</h2>
+<ol><li>Install pending updates.</li><li>Review which devices are logged into your accounts.</li><li>Back up your coursework.</li><li>Delete apps you no longer use.</li></ol>
+<h2>Conclusion</h2>
+<p>Good security is mostly habit, not technology. Start today with the first two tips: a password manager and 2FA stop most common attacks. Then add one new habit each week, and share these tips with friends, because a student group is only as safe as its weakest account. If you want to understand how software works under the hood, see my guide to <a href="#post1">choosing a first programming language</a>. Stay safe online!</p>
+</article></section>
+
+<section class="page" id="post3" data-title="My First Web Development Project | Byte by Byte" data-desc="How I planned, coded and published my first portfolio website with HTML, CSS, JavaScript and GitHub Pages, plus the mistakes to avoid.">
+<article>
+<h1>My First Web Development Project</h1>
+<p class="meta">By Eldar Danilov · October 2026 · Web development</p>
+<p class="lead">Meta description: How I planned, coded and published my first portfolio website with HTML, CSS, JavaScript and GitHub Pages, plus the mistakes to avoid.</p>
+<p>Every programmer remembers their first real project. Mine was a small personal portfolio website built with HTML, CSS and a little JavaScript. It was far from perfect, but it taught me more than weeks of reading. In this post, I describe how I planned it, the code I wrote and the lessons I would share with anyone about to start.</p>
+<figure><svg viewBox="0 0 600 220" role="img" aria-label="Wireframe of a portfolio website"><rect x="100" y="10" width="400" height="200" rx="10" fill="none" stroke="currentColor" stroke-width="2"/><line x1="100" y1="40" x2="500" y2="40" stroke="currentColor" stroke-width="2"/><circle cx="120" cy="25" r="5" fill="#ef4444"/><circle cx="138" cy="25" r="5" fill="#f59e0b"/><circle cx="156" cy="25" r="5" fill="#22c55e"/><rect x="120" y="55" width="360" height="22" rx="4" fill="#2563eb"/><rect x="120" y="92" width="110" height="80" rx="4" fill="currentColor" opacity=".15"/><rect x="245" y="92" width="110" height="80" rx="4" fill="currentColor" opacity=".15"/><rect x="370" y="92" width="110" height="80" rx="4" fill="currentColor" opacity=".15"/><rect x="120" y="184" width="360" height="12" rx="3" fill="currentColor" opacity=".3"/></svg><figcaption>Figure 3. The wireframe I sketched before writing any code: header, three project cards and footer.</figcaption></figure>
+<h2>Planning the Project</h2>
+<p>I began with paper, not code. I listed what the site needed: a home page, a projects page and a contact section, all readable on a phone. Planning first saved me from rewriting the layout three times. A simple sketch, called a wireframe, is enough.</p>
+<h3>Tools I Used</h3>
+<ul><li>Visual Studio Code as my editor</li><li>Chrome DevTools to inspect and debug the page</li><li>Git and GitHub Pages for version control and free hosting</li></ul>
+<h2>Building the Structure with HTML</h2>
+<p>HTML gives the page its skeleton. Using semantic tags such as <code>header</code>, <code>nav</code>, <code>main</code> and <code>footer</code> makes the page easier to read for people, search engines and screen readers. Here is the basic structure:</p>
+<pre><code>&lt;header&gt;&lt;h1&gt;My Portfolio&lt;/h1&gt;&lt;/header&gt;
+&lt;main&gt;
+  &lt;section id="projects"&gt;...&lt;/section&gt;
+&lt;/main&gt;
+&lt;footer&gt;Contact me&lt;/footer&gt;</code></pre>
+<h2>Styling with CSS</h2>
+<p>CSS turned a plain document into something I was not embarrassed to show. The biggest lesson was responsive design. A single rule makes a layout adapt to small screens:</p>
+<pre><code>@media (max-width: 600px) {
+  nav ul { flex-direction: column; }
+}</code></pre>
+<p>Flexbox and Grid replaced the messy float layouts that older tutorials still teach. I recommend the CSS guides on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank" rel="noopener">MDN</a> for both.</p>
+<h2>Adding Interactivity with JavaScript</h2>
+<p>The only script I wrote was a dark-mode toggle:</p>
+<pre><code>const btn = document.querySelector('#theme');
+btn.addEventListener('click', () =&gt; {
+  document.body.classList.toggle('dark');
+});</code></pre>
+<p>It is only a few lines of code, but it taught me events, the DOM and how the browser reacts to users.</p>
+<h2>Publishing on GitHub Pages</h2>
+<ol><li>Create a repository named <code>username.github.io</code>.</li><li>Upload your files.</li><li>Enable Pages in the repository settings.</li><li>Visit your URL after a minute.</li></ol>
+<p>Seeing my site live on a real address was the most rewarding moment of the project. The <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages documentation</a> explains every step.</p>
+<h2>Mistakes and Lessons</h2>
+<p>I made plenty of mistakes. I ignored mobile screens until the end, used huge uncompressed images that slowed loading, and forgot alt text. Each one is now on my checklist:</p>
+<ul><li>Design for mobile first</li><li>Compress images before uploading</li><li>Add alt text and descriptive page titles</li><li>Test in more than one browser</li></ul>
+<p>Reading other people's code on GitHub also helped me discover patterns I would never have found alone.</p>
+<h2>What I Would Do Next</h2>
+<p>Next, I plan to add a blog section, learn a framework such as React and connect analytics to see which pages visitors actually read. Small, steady upgrades keep a project alive long after the course ends.</p>
+<h2>Conclusion</h2>
+<p>A first project does not need to be impressive; it needs to be finished. Mine gave me confidence, a portfolio piece and a clear sense of what to learn next. If you are unsure which language to start with, read my post on <a href="#post1">beginner programming languages</a>, and once your site is online, protect your accounts with the <a href="#post2">cybersecurity tips for students</a>. What will you build first?</p>
+</article></section>
+
+<section class="page" id="about" data-title="About Me | Byte by Byte" data-desc="About Eldar Danilov, a third-year IT student (group IT2-2403 CSSE) who writes about programming, cybersecurity and web development.">
+<h1>About Me</h1>
+<p class="lead">Hi, I'm Eldar Danilov, a third-year IT student.</p>
+<p>I study Computer Science and Software Engineering (group IT2-2403 CSSE). I started this blog for my Blogging and PR Writing course, and it became a place to share what I learn about programming, cybersecurity and web development.</p>
+<h2>What you will find here</h2>
+<ul><li>Beginner-friendly programming guides</li><li>Practical security tips for students</li><li>Stories from my personal coding projects</li></ul>
+<h2>Get in touch</h2>
+<p>Write to me at <a href="mailto:your.email@example.com">your.email@example.com</a>. I am happy to hear feedback and topic ideas.</p>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Eldar Danilov · IT2-2403 CSSE · Byte by Byte</div></footer>
+<script>
+function route(){
+  var id=(location.hash||'#home').slice(1);
+  if(!document.getElementById(id))id='home';
+  document.querySelectorAll('section.page').forEach(function(s){s.classList.toggle('on',s.id===id)});
+  document.querySelectorAll('nav a').forEach(function(a){a.getAttribute('href')==='#'+id?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});
+  var s=document.getElementById(id);
+  document.title=s.dataset.title;
+  document.querySelector('meta[name="description"]').setAttribute('content',s.dataset.desc);
+  window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
